@@ -48,3 +48,10 @@ https://www.elastic.co/kr/downloads/kibana
         # Create a new cluster with the current node only
         # Additional nodes can still join the cluster later
         cluster.initial_master_nodes: ["USER"]
+
+-----
+        ### 설치확인
+
+        Elasticsearch  -> curl http://localhost:9200
+
+        kibana -> http://localhost:5601/
