@@ -147,6 +147,8 @@
     
     $ sudo systemctl start td-agent.service
     $ sudo systemctl status td-agent.service
+    
+    
     ● td-agent.service - td-agent: Fluentd based data collector for Treasure Data
        Loaded: loaded (/lib/systemd/system/td-agent.service; disabled; vendor preset: enabled)
        Active: active (running) since Thu 2017-12-07 15:12:27 PST; 6min ago
@@ -160,6 +162,17 @@
     Dec 07 15:12:27 ubuntu systemd[1]: Starting td-agent: Fluentd based data collector for Treasure Data...
     Dec 07 15:12:27 ubuntu systemd[1]: Started td-agent: Fluentd based data collector for Treasure Data.
      
+     
+    * System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down
+    
+    sudo apt-get update && sudo apt-get install -yqq daemonize dbus-user-session fontconfig
+
+    sudo daemonize /usr/bin/unshare --fork --pid --mount-proc /lib/systemd/systemd --system-unit=basic.target
+
+    exec sudo nsenter -t $(pidof systemd) -a su - $LOGNAME
+     
+
+
 
 ### Step 3: Post Sample Logs via HTTP(설치 확인)
 
