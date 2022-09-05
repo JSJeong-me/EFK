@@ -52,6 +52,6 @@ https://www.elastic.co/kr/downloads/kibana
 -----
         ### 설치확인
 
-        Elasticsearch  -> curl http://localhost:9200
+        * http://localhost:5601/ - Kibana Web UI interface
+        * http://localhost:9200/ - Elastic Search API
 
-        kibana -> http://localhost:5601/
