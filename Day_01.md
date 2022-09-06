@@ -1,47 +1,6 @@
-# Beginner's Crash Course to Elastic Stack Series
 ## Part 1: Intro to Elasticsearch & Kibana
 
-Welcome to the Beginner's Crash Course to Elastic Stack!
 
-This repo contains all resources shared during workshop Part 1: Intro to Elasticsearch and Kibana.
-
-By the end of this workshop, you will be able to:
-
-- understand a use case of Elasticsearch and Kibana
-- understand the basic architecture of Elasticsearch
-- perform CRUD(Create, Read, Update, and Delete) operations with Elasticsearch and Kibana
-
-## Resources
-
-[Beginner's Crash Course to Elastic Stack Table of Contents](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Series) 
-
-This workshop is a part of the Beginner's Crash Course to Elastic Stack series. Check out this table contents to access all the workshops in the series thus far. This table will continue to get updated as more workshops in the series are released! 
-
-[Free Elastic Cloud Trial](https://www.elastic.co/cloud/cloud-trial-overview/30-days?ultron=community-beginners-crash-course-May2022+&hulk=30d)
-
-[Instructions](https://dev.to/lisahjung/beginner-s-guide-to-setting-up-elasticsearch-and-kibana-with-elastic-cloud-1joh) on how to access Elasticsearch and Kibana on Elastic Cloud
-
-[Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
-
-[Alternative installation using Docker](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/docker-compose.yml)
-
-One of our AMAZING community member @h3ct0rjs has shared how you can run Elasticsearch and Kibana using Docker! Refer to this [link](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/docker-compose-directions.md) for his awesome step by step directions. Thank you so much @h3ct0rjs!!
-
-[Presentation](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/Intro%20to%20Elasticsearch%20and%20Kibana.pdf)
-
-[Video recording](https://www.youtube.com/watch?v=gS_nHTWZEJ8&t=8s) of the workshop
-
-[Mini Beginner's Crash Course to Elasticsearch & Kibana playlist](https://ela.st/mini-beginners-crash-course)
-
-Do you prefer learning by watching shorter videos? Check out this playlist to watch short clips of beginner's crash course full length workshops. Part 1 workshop is broken down into episodes 1-6. Season 2 clips will be uploaded here in the future! 
-
-[Blog](https://dev.to/lisahjung/beginner-s-guide-to-elasticsearch-4j2k) Beginner's guide to Elasticsearch
-
-[Blog](https://dev.to/lisahjung/beginner-s-guide-to-performing-crud-operations-with-elasticsearch-kibana-1h0n) Beginner's guide to performing CRUD operations with Elasticsearch and Kibana
-
-[Elastic America Virtual Chapter](https://community.elastic.co/amer-virtual/) Want to attend live workshops? Join the Elastic America Virtual Chapter to get the deets!
-
-[What's next?](https://github.com/LisaHJung/Part-2-Understanding-the-relevance-of-your-search-with-Elasticsearch-and-Kibana-) Eager to continue your learning after mastering the concept from this workshop? Move on to Part 2: Understanding the relevance of your search with Elasticsearch and Kibana [here](https://github.com/LisaHJung/Part-2-Understanding-the-relevance-of-your-search-with-Elasticsearch-and-Kibana-)!
 
 ## Getting information about cluster and nodes
 Syntax: 
