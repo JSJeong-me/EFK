@@ -15,14 +15,9 @@
 
     $ sudo apt-get install gzip
     
-    $ gzip -d elasticsearch-8.4.1-linux-x86_64.tar.gz
+    $ tar xvfz elasticsearch-8.4.1-linux-x86_64.tar
     
-    $ tar xvf elasticsearch-8.4.1-linux-x86_64.tar
-    
-    
-    $ gzip -d kibana-8.4.1-linux-x86_64.tar.gz
-    
-    $ tar xvf kibana-8.4.1-linux-x86_64.tar
+    $ tar xvfz kibana-8.4.1-linux-x86_64.tar
 
 
 -----
