@@ -49,6 +49,7 @@
 
         * http://localhost:5601/ - Kibana Web UI interface
         * http://localhost:9200/ - Elastic Search API
+        * $ curl -XGET localhost:9200
 -----
 
 ### Fluentd Insatallation
