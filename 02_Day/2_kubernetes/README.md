@@ -6,7 +6,6 @@ You will need a basic understanding of Fluentd before you attempt to run it on K
 Fluentd and Kubernetes have a bunch of moving parts.<br/> 
 To understand the basics of Fluentd, I highly recommend you start with this video: <br/> 
 
-<a href="https://youtu.be/Gp0-7oVOtPw" title="Fluentd"><img src="https://i.ytimg.com/vi/Gp0-7oVOtPw/hqdefault.jpg" width="50%" height="50%" alt="Fluentd" /></a>
 
 The most important components to understand is the fluentd `tail` plugin. <br/>
 This plugin is used to read logs from containers and pods on the file system and collect them.
