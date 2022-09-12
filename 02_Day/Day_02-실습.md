@@ -1,3 +1,37 @@
+### File log 연동
+
+Reading logs from a file we need an application that writes logs to a file. <br/>
+
+```
+cd monitoring\logging\fluentd\introduction\
+
+docker-compose up -d file-myapp
+
+```
+
+To collect the logs, lets start fluentd
+
+```
+docker-compose up -d fluentd
+```
+
+## Collecting logs over HTTP (incoming)
+
+```
+cd monitoring\logging\fluentd\introduction\
+
+docker-compose up -d http-myapp
+
+```
+-----
+
+### HTTP log 연동
+
+
+
+
+-----
+
 ### Fluentd MySQL slow log 연동
 
 ### 설치 및 사전 준비
