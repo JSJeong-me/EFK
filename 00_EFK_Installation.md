@@ -1,23 +1,26 @@
 ### Elasticsearch & Kibana Insatallation
 
+    $ sudo apt-get update
+
     Elasticsearch
 
     https://www.elastic.co/kr/downloads/elasticsearch
+    
+    $ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.4.1-linux-x86_64.tar.gz
 
 
 
     Kibana
 
     https://www.elastic.co/kr/downloads/kibana
-
-
-    $ sudo apt-get update
-
-    $ sudo apt-get install gzip
     
-    $ tar xvfz elasticsearch-8.4.1-linux-x86_64.tar
+    $ wget https://artifacts.elastic.co/downloads/kibana/kibana-8.4.1-linux-x86_64.tar.gz
+
+
+  
+    $ tar xvfz elasticsearch-8.4.1-linux-x86_64.tar.gz
     
-    $ tar xvfz kibana-8.4.1-linux-x86_64.tar
+    $ tar xvfz kibana-8.4.1-linux-x86_64.tar.gz
     
 -----
 
