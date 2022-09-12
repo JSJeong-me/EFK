@@ -1,1 +1,1 @@
-### Elasticsearch & Kibana 설치
+### Elasticsearch & Kibana 설치와 실습
