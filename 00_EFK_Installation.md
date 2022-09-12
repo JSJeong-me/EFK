@@ -41,7 +41,8 @@
     (https://www.elastic.co/guide/en/elasticsearch/reference/current/setting-system-settings.html#limits.conf)
 
 -----
-
+###     [중요] https 설정 disable
+        
         elasticsearch.yml
 
         # Enable security features
