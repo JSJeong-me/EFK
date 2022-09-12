@@ -1,2 +1,2 @@
 # EFK
-Elasticsearch + Fluentd + Kibana
+Elasticsearch + Fluentd + Kibana 3일 과정
