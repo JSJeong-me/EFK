@@ -1,4 +1,4 @@
-### 2nd Day 실습
+### Fluentd 실습
 
 
 # Logging
