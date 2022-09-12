@@ -18,7 +18,24 @@
     $ tar xvfz elasticsearch-8.4.1-linux-x86_64.tar
     
     $ tar xvfz kibana-8.4.1-linux-x86_64.tar
+    
+-----
 
+### 설치전 환경 설정
+
+    /etc/security/limits.conf 파일에 (max file descriptord 4096 에서 65536 으로 증가)
+    
+    {리눅스계정} - nofile 65535
+    
+    또는 .profile에 ulimit -n 65535
+    
+    
+    /etc/sysctl.conf 파일에 아래 내용 추가 (virtual memory 영역을 65530 에서 262144 로 증가)
+    
+    vm.max_map_count=262144
+    
+    
+    (https://www.elastic.co/guide/en/elasticsearch/reference/current/setting-system-settings.html#limits.conf)
 
 -----
 
