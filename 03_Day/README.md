@@ -1,5 +1,7 @@
 ### Kibana & Kubernetes Monitoring with EFK
 
+    kubectl Cheat Sheet -> https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
 
 ### 시스템 구성도
 
