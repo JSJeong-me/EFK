@@ -263,4 +263,3 @@ to retrieve log data from both running pods. The result should look something li
 
 
 
-
