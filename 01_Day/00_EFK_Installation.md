@@ -30,8 +30,7 @@
     
     {리눅스계정} - nofile 65535
     
-    또는 .profile에 ulimit -n 65535
-    
+       
     
     /etc/sysctl.conf 파일에 아래 내용 추가 (virtual memory 영역을 65530 에서 262144 로 증가)
     
