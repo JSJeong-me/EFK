@@ -13,3 +13,13 @@
     # Elasticsearch + Fluentd + Kibana 컨테이너 ID 확인
     $ docker-compose ps
     
+    
+-----
+
+### KQL
+
+    https://www.elastic.co/guide/en/kibana/current/kuery-query.html
+
+### Visulization
+
+    https://www.elastic.co/guide/en/kibana/current/dashboard.html
