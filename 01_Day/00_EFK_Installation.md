@@ -34,6 +34,45 @@
     
     /etc/sysctl.conf 파일에 아래 내용 추가 (virtual memory 영역을 65530 에서 262144 로 증가)
     
+    
+    
+### Fluentd Docker 실행 테스트을 위해 fluentd.conf 준비
+
+
+    $ /home/$(USER)/tmp/fluentd.conf
+
+        <source>
+          @type http
+          port 9880
+          bind 0.0.0.0
+        </source>
+
+        <match **>
+          @type stdout
+        </match>
+    
+    $ docker run -p 9880:9880 -v /home/me/tmp:/fluentd/etc fluent/fluentd:edge-debian -c /fluentd/etc/fluentd.conf
+    
+    
+    Post Sample Logs via HTTP
+    
+    $ curl -X POST -d 'json={"json":"message"}' http://127.0.0.1:9880/sample.test
+    
+    $ docker ps -a
+    
+        CONTAINER ID   IMAGE                        COMMAND                  CREATED         STATUS                           PORTS                                         NAMES
+    679c05ffaca3   fluent/fluentd:edge-debian   "tini -- /bin/entryp…"   2 minutes ago   Up 2 minutes                     5140/tcp, 24224/tcp, 0.0.0.0:9880->9880/tcp   vigilant_golick
+    
+    $ docker logs 775a8e192f2b | tail -n 1
+    
+    
+    
+    
+    
+    
+    
+    
+    
     vm.max_map_count=262144
     
     
