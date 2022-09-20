@@ -272,9 +272,18 @@
     $ docker ps -a
 
 
-    $ docker logs <> | tail -n 1
+    $ docker logs <docker ID> | tail -n 1
     
     [출처: https://docs.fluentd.org/container-deployment/install-by-docker]
     
 
+ ### Docker Compose 설치
+ 
+ 
+    https://github.com/digikin/fluentd-elastic-kibana
+    
+ 
+    [참조: https://docs.fluentd.org/container-deployment/docker-compose]
+    
+    
     
