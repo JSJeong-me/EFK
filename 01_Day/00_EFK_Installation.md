@@ -277,7 +277,7 @@
     [출처: https://docs.fluentd.org/container-deployment/install-by-docker]
     
 
- ### Docker Compose 설치
+ ### Docker Compose EFK 설치
  
  
     https://github.com/digikin/fluentd-elastic-kibana
