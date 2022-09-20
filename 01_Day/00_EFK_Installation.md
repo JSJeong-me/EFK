@@ -204,3 +204,38 @@
     2018-01-01 17:51:47 -0700 debug.test: {"json":"message"}
     
     [출처: https://docs.fluentd.org/installation/install-by-deb]
+    
+### Docker Image 설치
+
+    $ docker pull fluent/fluentd:edge-debian
+    
+    # $(pwd)/tmp/fluentd.conf
+
+    <source>
+      @type http
+      port 9880
+      bind 0.0.0.0
+    </source>
+
+    <match **>
+      @type stdout
+    </match>
+
+
+    $ docker run -p 9880:9880 -v $(pwd)/tmp:/fluentd/etc fluent/fluentd:edge-debian -c /fluentd/etc/fluentd.conf
+    
+    
+    설치 확인
+    
+    $ curl -X POST -d 'json={"json":"message"}' http://127.0.0.1:9880/sample.test
+    
+    
+    $ docker ps -a
+
+
+    $ docker logs <> | tail -n 1
+    
+    [출처: https://docs.fluentd.org/container-deployment/install-by-docker]
+    
+
+    
