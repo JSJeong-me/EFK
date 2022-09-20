@@ -280,7 +280,7 @@
  ### Docker Compose EFK 설치
  
  
-    https://github.com/digikin/fluentd-elastic-kibana
+    [https://github.com/digikin/fluentd-elastic-kibana](https://github.com/JSJeong-me/EFK/tree/main/01_Day/fluentd-elastic-kibana)
     
  
     [참조: https://docs.fluentd.org/container-deployment/docker-compose]
