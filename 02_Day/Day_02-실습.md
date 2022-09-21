@@ -34,11 +34,46 @@
     [참조: https://docs.fluentd.org/container-deployment/install-by-docker]
 -------
 
-### EFK (Elasticsearch + Fluentd + Kibana) 
+### EFK (Elasticsearch + Fluentd + Kibana) - HTTP logging
 
     $ git clone https://github.com/digikin/fluentd-elastic-kibana
     
-    [참조: https://docs.fluentd.org/container-deployment/docker-compose]
+    $ docker-compose up -d
+    
+    $ docker-compose ps
+    
+    # Checking logs for service fluentd
+    $ docker-compose logs fluentd
+
+    # Checking logs for service kibana
+    $ docker-compose logs kibana
+    
+    #  IP address 확인
+    $ docker inspect efk_elasticsearch_1
+    
+    
+    $ curl 172.18.0.2:9200
+     http://localhost:5601
+
+    # Configuring Kibana Index Pattern
+    
+    $ docker pull nginx:alpine
+    
+    # Docker Container with Fluentd Log Driver
+    $ docker run --name nginx_container -d --log-driver=fluentd -p 8080:80 nginx:alpine
+    
+    
+    # NGINX Log 생성
+    $ curl localhost:8080
+       
+  
+    # set up the index name pattern for Kibana. Specify fluentd-* to Index name or pattern and click Create
+    
+    # container_name : nginx_container 검색 KQL Kibana
+    
+    
+    [참조:  https://adamtheautomator.com/efk-stack/]
+    
     
     
 -----
