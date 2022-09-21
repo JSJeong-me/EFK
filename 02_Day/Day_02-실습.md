@@ -36,7 +36,7 @@
 
 ### EFK (Elasticsearch + Fluentd + Kibana) 
 
-    https://github.com/JSJeong-me/EFK/tree/main/01_Day/fluentd-elastic-kibana
+    $ git clone https://github.com/digikin/fluentd-elastic-kibana
     
     [참조: https://docs.fluentd.org/container-deployment/docker-compose]
     
