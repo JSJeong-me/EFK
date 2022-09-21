@@ -1,3 +1,44 @@
+### Fluentd Install:  Docker Image 테스트->  records from http, and outputs to stdout
+
+    $ docker pull fluent/fluentd:edge-debian
+    
+    $ ls -l /home/me/tmp/fluentd.conf
+    
+        <source>
+          @type http
+          port 9880
+          bind 0.0.0.0
+        </source>
+
+        <match **>
+          @type stdout
+        </match>    
+
+
+    # Docker 실행
+    
+    $ docker run -p 9880:9880 -v /home/me/tmp:/fluentd/etc fluent/fluentd:edge-debian -c /fluentd/etc/fluentd.conf
+    
+    
+    # Post Sample Logs via HTTP
+    
+    $ curl -X POST -d 'json={"json":"message"}' http://127.0.0.1:9880/sample.test
+    
+    $ docker ps -a
+    
+    $ docker logs <docker container ID> | tail -n 1
+
+    $ docker stop <docker container ID>
+
+-------
+
+
+
+
+
+
+
+
 ### File log 연동
 
 Reading logs from a file we need an application that writes logs to a file. <br/>
