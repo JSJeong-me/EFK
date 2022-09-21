@@ -34,6 +34,59 @@
     [참조: https://docs.fluentd.org/container-deployment/install-by-docker]
 -------
 
+### Fluentd Tag Test : Matching
+
+    <source>
+      @type http
+      port 8888
+      bind 0.0.0.0
+    </source>
+
+
+    <match test.cycle>
+      @type stdout
+    </match>
+
+
+    $ docker run -p 8888:8888 -v /home/me/tmp:/fluentd/etc fluent/fluentd:edge-debian -c /fluentd/etc/fluentd.conf
+
+    $ curl -i -X POST -d 'json={"action":"login","user":2}' http://localhost:8888/test.cycle
+
+    # Log 확인
+
+--------
+
+### Fluentd Filters 테스트
+
+<source>
+  @type http
+  port 8888
+  bind 0.0.0.0
+</source>
+
+<filter test.cycle>
+  @type grep
+  <exclude>
+    key action
+    pattern ^logout$
+  </exclude>
+</filter>
+
+<match test.cycle>
+  @type stdout
+</match>
+
+
+    $ docker run -p 8888:8888 -v /home/me/tmp:/fluentd/etc fluent/fluentd:edge-debian -c /fluentd/etc/fluentd.conf
+
+    $ curl -i -X POST -d 'json={"action":"login","user":2}' http://localhost:8888/test.cycle
+
+    # Log 확인
+
+
+    [참조: https://docs.fluentd.org/quickstart/life-of-a-fluentd-event]
+--------
+
 ### EFK (Elasticsearch + Fluentd + Kibana) - HTTP logging
 
     $ git clone https://github.com/digikin/fluentd-elastic-kibana
