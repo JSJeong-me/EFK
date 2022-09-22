@@ -89,7 +89,6 @@
 
 ### EFK (Elasticsearch + Fluentd + Kibana) - HTTP logging
 
-    $ git clone https://github.com/digikin/fluentd-elastic-kibana
     
     $ docker-compose up -d
     
