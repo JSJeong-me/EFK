@@ -64,14 +64,7 @@
     679c05ffaca3   fluent/fluentd:edge-debian   "tini -- /bin/entryp…"   2 minutes ago   Up 2 minutes                     5140/tcp, 24224/tcp, 0.0.0.0:9880->9880/tcp   vigilant_golick
     
     $ docker logs 775a8e192f2b | tail -n 1
-    
-    
-    
-    
-    
-    
-    
-    
+   
     
     vm.max_map_count=262144
     
@@ -247,22 +240,22 @@
     
 ### Step 4: Window td-agent 설치 확인
 
-C:/opt/td-agent/etc/td-agent/td-agent.con
+    C:/opt/td-agent/etc/td-agent/td-agent.con
 
-<source>
-  @type forward
-</source>
-<match test.**>
-  @type stdout
-</match>
+    <source>
+      @type forward
+    </source>
+    <match test.**>
+      @type stdout
+    </match>
 
-Fluentd 실행
+    Fluentd 실행
 
-> fluentd -c etc\td-agent\td-agent.conf
+    > fluentd -c etc\td-agent\td-agent.conf
 
-Fluentd 테스트
+    Fluentd 테스트
 
-> echo {"message":"hello"} | fluent-cat test.event
+    > echo {"message":"hello"} | fluent-cat test.event
 
     
     
