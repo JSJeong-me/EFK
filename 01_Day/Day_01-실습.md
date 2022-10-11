@@ -1,5 +1,15 @@
 ## Part 1: Intro to Elasticsearch & Kibana
 
+### Index 확인
+Syntax:
+```
+GET _cat/indices
+
+GET {indices}/_search
+
+GET {indices}/_count
+
+DELETE {indices}  # 삭제
 
 
 ## Getting information about cluster and nodes
