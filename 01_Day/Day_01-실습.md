@@ -9,6 +9,16 @@ GET {indices}/_search
 
 GET {indices}/_count
 
+### REAST API 로 Document 접근
+
+입력|조회|삭제: PUT|GET|DELETE {_index}/_doc/{_id}
+
+업데이트: POST {_index}/_update/{_id}
+
+벌크 명령: POST _bulk
+
+
+
 DELETE {indices}  # 삭제
 ```
 
@@ -170,6 +180,15 @@ DELETE favorite_candy/_doc/1
 ```
 Expected response from Elasticsearch:
 ![image](https://user-images.githubusercontent.com/60980933/101939174-dab4fd80-3ba1-11eb-93fe-de682853bae4.png)
+
+
+### _search API로 Document 검색
+```
+
+URI 검색: ?q=...쿼리...
+
+데이터 본문 검색: {"query": {...쿼리...}}
+```
 
 ## Take Home Assignment
 1. Create an index called places.
