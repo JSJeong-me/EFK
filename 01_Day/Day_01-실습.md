@@ -188,6 +188,10 @@ Expected response from Elasticsearch:
 URI 검색: ?q=...쿼리...
 
 데이터 본문 검색: {"query": {...쿼리...}}
+
+예제 실습
+
+  https://esbook.kimjmin.net/05-search/5.1-query-dsl
 ```
 
 ## Take Home Assignment
