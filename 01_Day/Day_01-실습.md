@@ -10,7 +10,7 @@ GET {indices}/_search
 GET {indices}/_count
 
 DELETE {indices}  # 삭제
-
+```
 
 ## Getting information about cluster and nodes
 Syntax: 
