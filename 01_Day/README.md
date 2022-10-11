@@ -244,6 +244,28 @@
     
     [출처: https://docs.fluentd.org/installation/install-by-deb]
     
+    
+### Step 4: Window td-agent 설치 확인
+
+C:/opt/td-agent/etc/td-agent/td-agent.con
+
+<source>
+  @type forward
+</source>
+<match test.**>
+  @type stdout
+</match>
+
+Fluentd 실행
+
+> fluentd -c etc\td-agent\td-agent.conf
+
+Fluentd 테스트
+
+> echo {"message":"hello"} | fluent-cat test.event
+
+    
+    
 ### Docker Image 설치
 
     $ docker pull fluent/fluentd:edge-debian
