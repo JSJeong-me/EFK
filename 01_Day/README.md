@@ -35,6 +35,18 @@
     /etc/sysctl.conf 파일에 아래 내용 추가 (virtual memory 영역을 65530 에서 262144 로 증가)
     
     
+-----
+
+### Elasticsearch - config/elasticsearch.yml 파일 설정
+
+    cluster.name: "es-cluster"
+    node.name: "node"
+    network.host: ["_local","_site_"]
+
+    [참조: https://esbook.kimjmin.net/02-install/2.3-elasticsearch/2.3.2-elasticsearch.yml]
+    [참조: https://esbook.kimjmin.net/01-overview/1.1-elastic-stack/1.1.3-kibana]
+
+-----
     
 ### Fluentd Docker 실행 테스트을 위해 fluentd.conf 준비
 
