@@ -1,0 +1,811 @@
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:16:44Z\",\"tags\":[\"warning\",\"plugins-discovery\"],\"pid\":7,\"message\":\"Expect plugin \\\"id\\\" in camelCase, but found: beats_management\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:16:44Z\",\"tags\":[\"warning\",\"plugins-discovery\"],\"pid\":7,\"message\":\"Expect plugin \\\"id\\\" in camelCase, but found: triggers_actions_ui\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"[BABEL] Note: The code generator has deoptimised the styling of /usr/share/kibana/x-pack/plugins/canvas/server/templates/pitch_presentation.js as it exceeds the max of 500KB.\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:20Z\",\"tags\":[\"info\",\"plugins-service\"],\"pid\":7,\"message\":\"Plugin \\\"visTypeXy\\\" is disabled.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:20Z\",\"tags\":[\"info\",\"plugins-service\"],\"pid\":7,\"message\":\"Plugin \\\"auditTrail\\\" is disabled.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"config\",\"deprecation\"],\"pid\":7,\"message\":\"Config key [monitoring.cluster_alerts.email_notifications.email_address] will be required for email notifications to work in 8.0.\\\"\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"info\",\"plugins-system\"],\"pid\":7,\"message\":\"Setting up [92] plugins: [taskManager,licensing,observability,globalSearch,globalSearchProviders,code,usageCollection,ossTelemetry,telemetryCollectionManager,telemetry,telemetryCollectionXpack,kibanaUsageCollection,newsfeed,mapsLegacy,kibanaLegacy,translations,timelion,share,legacyExport,esUiShared,charts,bfetch,expressions,data,home,cloud,console,consoleExtensions,apmOss,searchprofiler,painlessLab,grokdebugger,management,upgradeAssistant,licenseManagement,watcher,indexPatternManagement,advancedSettings,fileUpload,dataEnhanced,savedObjects,visualizations,visualize,visTypeVislib,visTypeVega,visTypeTimeseries,visTypeTimelion,features,security,snapshotRestore,reporting,enterpriseSearch,encryptedSavedObjects,ingestManager,indexManagement,rollup,remoteClusters,crossClusterReplication,indexLifecycleManagement,beats_management,transform,ingestPipelines,maps,graph,canvas,visTypeTagcloud,visTypeTable,visTypeMarkdown,visTypeMetric,tileMap,regionMap,inputControlVis,discover,discoverEnhanced,dashboard,lens,dashboardMode,savedObjectsManagement,spaces,lists,eventLog,actions,case,alerts,alertingBuiltins,ml,securitySolution,infra,monitoring,logstash,apm,uptime]\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"security\",\"config\"],\"pid\":7,\"message\":\"Generating a random key for xpack.security.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.security.encryptionKey in kibana.yml\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"security\",\"config\"],\"pid\":7,\"message\":\"Session cookies will be transmitted over insecure connections. This is not recommended.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"reporting\",\"config\"],\"pid\":7,\"message\":\"Generating a random key for xpack.reporting.encryptionKey. To prevent sessions from being invalidated on restart, please set xpack.reporting.encryptionKey in kibana.yml\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"reporting\",\"config\"],\"pid\":7,\"message\":\"Found 'server.host: \\\"0\\\"' in Kibana configuration. This is incompatible with Reporting. To enable Reporting to work, 'xpack.reporting.kibanaServer.hostname: 0.0.0.0' is being automatically to the configuration. You can change the setting to 'server.host: 0.0.0.0' or add 'xpack.reporting.kibanaServer.hostname: 0.0.0.0' in kibana.yml to prevent this message.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"encryptedSavedObjects\",\"config\"],\"pid\":7,\"message\":\"Generating a random key for xpack.encryptedSavedObjects.encryptionKey. To be able to decrypt encrypted saved objects attributes after restart, please set xpack.encryptedSavedObjects.encryptionKey in kibana.yml\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"ingestManager\"],\"pid\":7,\"message\":\"Fleet APIs are disabled due to the Encrypted Saved Objects plugin using an ephemeral encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in kibana.yml.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"actions\",\"actions\"],\"pid\":7,\"message\":\"APIs are disabled due to the Encrypted Saved Objects plugin using an ephemeral encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in kibana.yml.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"alerts\",\"plugins\",\"alerting\"],\"pid\":7,\"message\":\"APIs are disabled due to the Encrypted Saved Objects plugin using an ephemeral encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in kibana.yml.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"info\",\"plugins\",\"monitoring\",\"monitoring\"],\"pid\":7,\"message\":\"config sourced from: production cluster\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:21Z\",\"tags\":[\"warning\",\"plugins\",\"reporting\",\"config\"],\"pid\":7,\"message\":\"Chromium sandbox provides an additional layer of protection, but is not supported for Linux Centos 7.8.2003 OS. Automatically setting 'xpack.reporting.capture.browser.chromium.disableSandbox: true'.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:31Z\",\"tags\":[\"error\",\"elasticsearch\",\"monitoring\"],\"pid\":7,\"message\":\"Request error, retrying\\nGET http://elasticsearch:9200/_xpack => getaddrinfo ENOTFOUND elasticsearch elasticsearch:9200\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:31Z\",\"tags\":[\"error\",\"elasticsearch\",\"data\"],\"pid\":7,\"message\":\"Request error, retrying\\nGET http://elasticsearch:9200/_nodes?filter_path=nodes.*.version%2Cnodes.*.http.publish_address%2Cnodes.*.ip => getaddrinfo ENOTFOUND elasticsearch elasticsearch:9200\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\":\"log\",\"@timestamp\":\"2022-10-12T18:17:36Z\",\"tags\":[\"info\",\"plugins-system\"],\"pid\":7,\"message\":\"Stopping all plugins.\"}\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/main/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/community/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"(1/5) Installing ca-certificates (20220614-r0)\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"(2/5) Installing brotli-libs (1.0.9-r6)\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"(3/5) Installing nghttp2-libs (1.47.0-r0)\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"(4/5) Installing libcurl (7.83.1-r3)\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"(5/5) Installing curl (7.83.1-r3)\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Executing busybox-1.35.0-r17.trigger\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Executing ca-certificates-20220614-r0.trigger\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"OK: 8 MiB in 19 packages\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/main/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/community/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"OK: 8 MiB in 19 packages\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/main/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/community/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"OK: 8 MiB in 19 packages\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 1 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (7) Failed to connect to fluentd port 9880 after 0 ms: Connection refused\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/main/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/community/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"OK: 8 MiB in 19 packages\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   3024 --:--:-- --:--:-- --:--:--  3600\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   5832 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   7374 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   6060 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0     71 --:--:-- --:--:-- --:--:--    71\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"curl: (56) Recv failure: Connection reset by peer\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/main/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"fetch https://dl-cdn.alpinelinux.org/alpine/v3.16/community/x86_64/APKINDEX.tar.gz\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"OK: 8 MiB in 19 packages\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: fluentd\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   1759 --:--:-- --:--:-- --:--:--  1800\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   6058 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   7398 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   6091 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   7197 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   6547 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   7228 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    18    0     0  100    18      0   7188 --:--:-- --:--:-- --:--:--  9000\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Sending logs to FluentD\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                                 Dload  Upload   Total   Spent    Left  Speed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:44,903Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"version[7.9.1], pid[7], build[default/docker/083627f112ba94dffc1232e8b42b73492789ef91/2020-09-01T21:22:21.964974Z], OS[Linux/5.10.16.3-microsoft-standard-WSL2/amd64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/14.0.1/14.0.1+7]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:44,907Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"JVM home [/usr/share/elasticsearch/jdk]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:44,907Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"JVM arguments [-Xshare:auto, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseG1GC, -XX:G1ReservePercent=25, -XX:InitiatingHeapOccupancyPercent=30, -Djava.io.tmpdir=/tmp/elasticsearch-14322918584561190792, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Des.cgroups.hierarchy.override=/, -Xms512m, -Xmx512m, -XX:MaxDirectMemorySize=268435456, -Des.path.home=/usr/share/elasticsearch, -Des.path.conf=/usr/share/elasticsearch/config, -Des.distribution.flavor=default, -Des.distribution.type=docker, -Des.bundled_jdk=true]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,092Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [aggs-matrix-stats]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,092Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [analysis-common]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,092Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [constant-keyword]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,092Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [flattened]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,093Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [frozen-indices]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,093Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [ingest-common]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,094Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [ingest-geoip]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,094Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [ingest-user-agent]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,094Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [kibana]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,094Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [lang-expression]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,095Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [lang-mustache]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,095Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [lang-painless]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,096Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [mapper-extras]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,096Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [parent-join]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,096Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [percolator]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,096Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [rank-eval]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,097Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [reindex]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,097Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [repository-url]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,098Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [search-business-rules]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,098Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [searchable-snapshots]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,099Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [spatial]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,099Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [tasks]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,099Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [transform]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,100Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [transport-netty4]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,100Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [vectors]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,100Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [wildcard]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,100Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-analytics]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,101Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-async]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,101Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-async-search]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,101Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-autoscaling]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,101Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-ccr]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,101Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-core]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,102Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-data-streams]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,102Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-deprecation]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,102Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-enrich]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,102Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-eql]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,103Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-graph]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,103Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-identity-provider]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,103Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-ilm]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,103Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-logstash]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,104Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-ml]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,104Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-monitoring]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,104Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-ql]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,105Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-rollup]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,105Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-security]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,105Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-sql]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,106Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-stack]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,106Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-voting-only-node]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,106Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"loaded module [x-pack-watcher]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,107Z\", \"level\": \"INFO\", \"component\": \"o.e.p.PluginsService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"no plugins loaded\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,153Z\", \"level\": \"INFO\", \"component\": \"o.e.e.NodeEnvironment\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"using [1] data paths, mounts [[/ (overlay)]], net usable_space [233.7gb], net total_space [250.9gb], types [overlay]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,154Z\", \"level\": \"INFO\", \"component\": \"o.e.e.NodeEnvironment\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"heap size [512mb], compressed ordinary object pointers [true]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:47,191Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"node name [elasticsearch], node ID [4NEoUI_dRiOPkYM4DaReTQ], cluster name [docker-cluster]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:50,948Z\", \"level\": \"INFO\", \"component\": \"o.e.x.m.p.l.CppLogMessageHandler\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"[controller/238] [Main.cc@114] controller (64 bit): Version 7.9.1 (Build 6ed2566ba11bb5) Copyright (c) 2020 Elasticsearch BV\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:51,415Z\", \"level\": \"INFO\", \"component\": \"o.e.x.s.a.s.FileRolesStore\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"parsed [0] roles from file [/usr/share/elasticsearch/config/roles.yml]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:52,809Z\", \"level\": \"INFO\", \"component\": \"o.e.d.DiscoveryModule\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"using discovery type [zen] and seed hosts providers [settings]\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:53,325Z\", \"level\": \"WARN\", \"component\": \"o.e.g.DanglingIndicesState\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:53,923Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"initialized\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:53,924Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"starting ...\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:54,136Z\", \"level\": \"INFO\", \"component\": \"o.e.t.TransportService\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"publish_address {172.18.0.5:9300}, bound_addresses {0.0.0.0:9300}\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:54,355Z\", \"level\": \"INFO\", \"component\": \"o.e.b.BootstrapChecks\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"bound or publishing to a non-loopback address, enforcing bootstrap checks\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"ERROR: [1] bootstrap checks failed\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"[1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"ERROR: Elasticsearch did not exit normally - check the logs at /usr/share/elasticsearch/logs/docker-cluster.log\n","stream":"stderr"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:54,365Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"stopping ...\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:54,397Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"stopped\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:54,398Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"closing ...\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:54,414Z\", \"level\": \"INFO\", \"component\": \"o.e.n.Node\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"closed\" }\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"{\"type\": \"server\", \"timestamp\": \"2022-10-12T18:16:54,416Z\", \"level\": \"INFO\", \"component\": \"o.e.x.m.p.NativeController\", \"cluster.name\": \"docker-cluster\", \"node.name\": \"elasticsearch\", \"message\": \"Native controller process has stopped - no new native processes can be started\" }\n","stream":"stdout"}
