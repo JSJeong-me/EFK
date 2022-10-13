@@ -1,5 +1,9 @@
 # Fluentd Simplified
+-----
+### geoip plugin 실행 방법
 
+  docker run -u root -ti --rm -v /home/me/fluentd/etc:/fluentd/etc -v /home/me/fluentd/log:/var/log/ -v /home/me/fluentd/output:/output fluent/fluentd:v1.10-debian-1 bash -c "apt update && apt install -y build-essential libgeoip-dev libmaxminddb-dev && gem install fluent-plugin-rewrite-tag-filter fluent-plugin-geoip && fluentd -c /fluentd/etc/fluentd.conf -v"
+-----
 This repo is used as the source code of [this](https://scaleout.ninja/post/fluentd-simplified/) post.
 
 ## Run Fluentd
