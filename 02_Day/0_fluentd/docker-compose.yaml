@@ -5,7 +5,7 @@ services:
     user: root
     build:
       context: .
-    image: image: fluentd:v1.11-debian
+    imagefluentd:v1.11-debian
     volumes:
     - /var/lib/docker/containers:/fluentd/log/containers # Example: Reading docker logs
     - ./file:/fluentd/log/files/ #Example: Reading logs from a file
@@ -16,7 +16,7 @@ services:
   # This app sends logs to Fluentd via HTTP
   http-myapp:
     container_name: http-myapp
-    image: alpine
+    image: fluentd:v1.11-debian
     volumes:
     - ./http:/app
     command: [ /bin/sh , -c , "apk add --no-cache curl && chmod +x /app/app.sh && ./app/app.sh"]
