@@ -5,7 +5,7 @@ services:
     user: root
     build:
       context: .
-    imagefluentd:v1.11-debian
+    image: fluentd:v1.11-debian
     volumes:
     - /var/lib/docker/containers:/fluentd/log/containers # Example: Reading docker logs
     - ./file:/fluentd/log/files/ #Example: Reading logs from a file
